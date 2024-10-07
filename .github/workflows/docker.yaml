@@ -128,10 +128,8 @@ jobs:
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
         
             name_space_prefix="${name_space}"
-            echo "name_space_prefix: $name_space_prefix"
-            if [ -n "$name_space_prefix" ]; then
-              name_space_prefix = "${name_space_prefix}-"
-            fi
+            current_value="-"
+            name_space_prefix=${name_space_prefix:-${EMPTY_VALUE}}
             echo "name_space_prefix: $name_space_prefix"
             # 如果镜像名重名
             if [[ -n "${duplicate_images[$image_name]}" ]]; then
