@@ -129,7 +129,7 @@ jobs:
         
             name_space_prefix="${name_space}"
             echo "name_space_prefix: $name_space_prefix"
-            if [ "$VAR" ]; then
+            if [ "$name_space_prefix" ]; then
               name_space_prefix = "${name_space_prefix}-"
             fi
             echo "name_space_prefix: $name_space_prefix"
