@@ -129,6 +129,10 @@ jobs:
         
             name_space_prefix="${name_space}"
             echo "name_space_prefix: $name_space_prefix"
+            if [ "$VAR" ]; then
+              name_space_prefix = "${name_space_prefix}-"
+            fi
+            echo "name_space_prefix: $name_space_prefix"
             # 如果镜像名重名
             if [[ -n "${duplicate_images[$image_name]}" ]]; then
                #如果命名空间非空，将命名空间加到前缀
