@@ -128,17 +128,15 @@ jobs:
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
         
             name_space_prefix="${name_space}"
-            current_value="-"
-            name_space_prefix=${name_space_prefix:-${EMPTY_VALUE}}
-            echo "name_space_prefix: $name_space_prefix"
+            
             # 如果镜像名重名
-            if [[ -n "${duplicate_images[$image_name]}" ]]; then
+            #if [[ -n "${duplicate_images[$image_name]}" ]]; then
                #如果命名空间非空，将命名空间加到前缀
                if [[ -n "${name_space}" ]]; then
                   name_space_prefix="${name_space}-"
                fi
-            fi
-            
+            #fi
+            echo "name_space_prefix: $name_space_prefix"
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
