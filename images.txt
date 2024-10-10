@@ -6,3 +6,4 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 vaultwarden/server:1.32.1
 rustdesk/rustdesk-server:1.1.12
+ghcr.io/kingmo888/rustdesk-api-server:latest
