@@ -4,6 +4,6 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-vaultwarden/server:1.32.1
-rustdesk/rustdesk-server:1.1.12
-ghcr.io/kingmo888/rustdesk-api-server:latest
+vaultwarden/server:1.32.2
+#rustdesk/rustdesk-server:1.1.12
+#ghcr.io/kingmo888/rustdesk-api-server:latest
