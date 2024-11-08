@@ -9,4 +9,5 @@
 #ghcr.io/kingmo888/rustdesk-api-server:latest
 #amazoncorretto:17.0.13-alpine3.17
 #amazoncorretto:21.0.5-alpine3.17
-bitnami/postgresql:17.0.0
+#bitnami/postgresql:17.0.0
+tdengine/tdengine:latest
