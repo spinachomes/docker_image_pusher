@@ -10,4 +10,5 @@
 #amazoncorretto:17.0.13-alpine3.17
 #amazoncorretto:21.0.5-alpine3.17
 #bitnami/postgresql:17.0.0
-tdengine/tdengine:latest
+#tdengine/tdengine:latest
+mcr.microsoft.com/mssql/server:2017-latest
