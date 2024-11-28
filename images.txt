@@ -9,9 +9,10 @@
 #ghcr.io/kingmo888/rustdesk-api-server:latest
 #amazoncorretto:17.0.13-alpine3.17
 #amazoncorretto:21.0.5-alpine3.17
-bitnami/postgresql:14.15.0
+#bitnami/postgresql:14.15.0
 #tdengine/tdengine:latest
 #mcr.microsoft.com/mssql/server:2017-latest
 #mcr.microsoft.com/mssql/server:2019-latest
 #quay.io/minio/minio
 #powerjob/powerjob-server
+gitea/gitea:1.22.4-rootless
