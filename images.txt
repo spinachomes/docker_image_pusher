@@ -16,4 +16,5 @@
 #quay.io/minio/minio
 #powerjob/powerjob-server
 #gitea/gitea:1.22.4-rootless
-victoriametrics/victoria-logs:v1.0.0-victorialogs
+#victoriametrics/victoria-logs:v1.0.0-victorialogs
+docker.elastic.co/logstash/logstash:8.15.0
