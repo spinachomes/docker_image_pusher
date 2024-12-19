@@ -15,6 +15,6 @@
 #mcr.microsoft.com/mssql/server:2019-latest
 #quay.io/minio/minio
 #powerjob/powerjob-server
-#gitea/gitea:1.22.6-rootless
+gitea/gitea:1.22.6-rootless
 #victoriametrics/victoria-logs:v1.0.0-victorialogs
 #docker.elastic.co/logstash/logstash:8.15.0
