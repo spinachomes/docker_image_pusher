@@ -4,7 +4,7 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-#vaultwarden/server:1.32.6
+vaultwarden/server:1.32.7
 #rustdesk/rustdesk-server:1.1.12
 #ghcr.io/kingmo888/rustdesk-api-server:latest
 #amazoncorretto:17.0.13-alpine3.17
@@ -15,6 +15,6 @@
 #mcr.microsoft.com/mssql/server:2019-latest
 #quay.io/minio/minio
 #powerjob/powerjob-server
-gitea/gitea:1.22.6-rootless
+#gitea/gitea:1.22.6-rootless
 #victoriametrics/victoria-logs:v1.0.0-victorialogs
 #docker.elastic.co/logstash/logstash:8.15.0
