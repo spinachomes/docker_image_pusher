@@ -4,7 +4,7 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-#vaultwarden/server:1.34.3
+vaultwarden/server:1.35.1
 #rustdesk/rustdesk-server:1.1.14
 #ghcr.io/kingmo888/rustdesk-api-server:latest
 #amazoncorretto:17.0.13-alpine3.17
@@ -18,4 +18,4 @@
 #gitea/gitea:1.24.5-rootless
 #victoriametrics/victoria-logs:v1.0.0-victorialogs
 #docker.elastic.co/logstash/logstash:8.15.0
-sonatype/nexus
+#sonatype/nexus
