@@ -19,5 +19,5 @@
 #victoriametrics/victoria-logs:v1.0.0-victorialogs
 #docker.elastic.co/logstash/logstash:8.15.0
 #sonatype/nexus
-#kartoza/postgis:18-3.6
-redis:6.2.21-alpine
+kartoza/postgis:18-3.6
+#redis:6.2.21-alpine
